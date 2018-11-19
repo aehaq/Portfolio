@@ -1,0 +1,38 @@
+[
+    {
+        "id": 0,
+        "title": "Lets_Dev",
+        "site-link": "https://letsdev.herokuapp.com/",
+        "gitHub-link": "https://github.com/acekreations/Lets-Dev",
+        "preview": "/assets/images/previes/letsdev.png",
+        "description": "Productivity focused social accountability platform for developers",
+        "tags": []
+    },
+    {
+        "id": 1,
+        "title": "Timely",
+        "site-link": "https://timelymanager.herokuapp.com/",
+        "gitHub-link": "https://github.com/liangbryan2/timely",
+        "preview": "/assets/images/previews/timely.png",
+        "description": "",
+        "tags": []
+    },
+    {
+        "id": 2,
+        "title": "JukeLab",
+        "site-link": "https://aehaq.github.io/JukeLab/",
+        "gitHub-link": "https://github.com/aehaq/JukeLab",
+        "preview": "/assets/images/previews/JukeLab.png",
+        "description": "Web Application ",
+        "tags": []
+    },
+    {
+        "id": 3,
+        "title": "placeholder",
+        "site-link": "",
+        "gitHub-link": "",
+        "preview": "/assets/images/previews/",
+        "description": "",
+        "tags": []
+    }
+]

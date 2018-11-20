@@ -6,7 +6,7 @@
         "gitHub-link": "https://github.com/acekreations/Lets-Dev",
         "preview": "/assets/images/previes/letsdev.png",
         "description": "Productivity focused social accountability platform for developers",
-        "tags": ["Featured", "React.js", "SQL", "PostgreSQL", "Sequelize", "Node", "Express", "Heroku", "APIs", "JavaScript", "Authentication"]
+        "tags": ["Featured", "React.js", "SQL", "PostgreSQL", "Sequelize", "Node", "Express", "Heroku", "APIs", "JavaScript", "OAuth", "User Authentication"]
     },
     {
         "id": 1,
@@ -24,7 +24,7 @@
         "gitHub-link": "https://github.com/aehaq/JukeLab",
         "preview": "/assets/images/previews/JukeLab.png",
         "description": "Web Application ",
-        "tags": ["Featured", "APIs", "JavaScript", "jQuery", "Firebase", "UIKit", "OAuth", "Mobile Responsive"]
+        "tags": ["Featured", "APIs", "JavaScript", "jQuery", "Firebase", "UIKit", "OAuth", "User Authentication", "Mobile Responsive"]
     },
     {
         "id": 3,

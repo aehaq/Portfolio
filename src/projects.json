@@ -28,6 +28,33 @@
     },
     {
         "id": 3,
+        "title": "News Stand",
+        "site-link": "",
+        "gitHub-link": "",
+        "preview": "/assets/images/previews/",
+        "description": "",
+        "tags": ["Node", "HandleBars", "MongoDB", "Mongoose", "APIs"]
+    },
+    {
+        "id": 4,
+        "title": "M.E.M. Test",
+        "site-link": "",
+        "gitHub-link": "",
+        "preview": "/assets/images/previews/",
+        "description": "",
+        "tags": ["React.js","BootStrap"]
+    },
+    {
+        "id": 5,
+        "title": "placeholder",
+        "site-link": "",
+        "gitHub-link": "",
+        "preview": "/assets/images/previews/",
+        "description": "",
+        "tags": []
+    },
+    {
+        "id": 6,
         "title": "placeholder",
         "site-link": "",
         "gitHub-link": "",

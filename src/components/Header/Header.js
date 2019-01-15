@@ -36,32 +36,40 @@ class Header extends Component {
                     <Col sm="6">
                     <Nav className="float-md-right">
                         <NavLink className="text-info" href="#">
-                            <Row>
-                            <i className="fab fa-linkedin"></i>
+                            <Row className="justify-content-center">
+                                <a>
+                                    <i className="fab fa-linkedin"></i>
+                                </a>
                             </Row>
                             <Row>
                             LinkedIn
                             </Row>
                         </NavLink>
                         <NavLink className="text-info" href="#">
-                            <Row>
-                            ICON HERE
+                            <Row className="justify-content-center">
+                                <a>
+                                    <i className="fab fa-github"></i>
+                                </a>
                             </Row>
                             <Row>
                             GitHub
                             </Row>
                         </NavLink>
                         <NavLink className="text-info" href="#">
-                            <Row>
-                            ICON HERE
+                            <Row className="justify-content-center">
+                                <a>
+                                    <i className="fas fa-file"></i>
+                                </a>
                             </Row>
                             <Row>
                             Resume
                             </Row>
                         </NavLink>
                         <NavLink className="text-info" href="#">
-                            <Row>
-                            ICON HERE
+                            <Row className="justify-content-center">
+                                <a>
+                                    <i className="fas fa-envelope"></i>
+                                </a>
                             </Row>
                             <Row>
                             Contact

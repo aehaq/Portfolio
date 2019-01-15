@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Collapse, Button } from 'reactstrap';
+import { Collapse, Button, Container, Row, Col, Nav, NavItem, NavLink } from 'reactstrap';
 import "./Header.css";
 
 class Header extends Component {
@@ -28,20 +28,36 @@ class Header extends Component {
     render() {
         return(
             <header className="header">
-                <h1>Azzi Haq</h1>
-                <a>LinkedIn</a>
-                <a>GitHub</a>
-                <a>Resume</a>
-                <a>Contact</a>
-                <br></br>
+            <Container>
+                <Row>
+                    <Col>
+                        <h1>Azzi Haq</h1>
+                    </Col>
+                    <Col>
+                    <Nav className="float-right">
+                        <NavLink href="#">LinkedIn</NavLink><NavLink href="#">GitHub</NavLink> <NavLink href="#">Resume</NavLink> <NavLink href="#">Email</NavLink>
+                    </Nav>
+                        {/* <a>LinkedIn</a>
+                        <a>GitHub</a>
+                        <a>Resume</a>
+                        <a>Contact</a> */}
+                    </Col>
+                </Row>
                 <Collapse isOpen={this.state.collapse} onEntering={this.onEntering} onExiting={this.onExiting}>
-                <div>
-                    <h1>
-                        HELLO WORLD!
-                    </h1>
-                </div>
+                    <div>
+                        <h1>
+                            HELLO WORLD!
+                        </h1>
+                    </div>
                 </Collapse>
-                <Button color="primary" onClick={this.toggle}>{this.state.status}</Button>
+                <Row>
+                    <Col></Col>
+                    <Col className="text-center">
+                    <Button color="primary" onClick={this.toggle}>{this.state.status}</Button>
+                    </Col>
+                    <Col></Col>
+                </Row>
+            </Container>
             </header>
         )
     }

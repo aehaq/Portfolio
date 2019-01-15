@@ -37,7 +37,7 @@ class Header extends Component {
                     <Nav className="float-md-right">
                         <NavLink className="text-info" href="#">
                             <Row>
-                            ICON HERE
+                            <i className="fab fa-linkedin"></i>
                             </Row>
                             <Row>
                             LinkedIn

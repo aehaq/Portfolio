@@ -9,7 +9,8 @@ class Projects extends Component {
     
         this.toggle = this.toggle.bind(this);
         this.state = {
-          dropdownOpen: false
+          dropdownOpen: false,
+          filter: "Featured Projects"
         };
     }
 
@@ -19,24 +20,31 @@ class Projects extends Component {
         })
     }
 
+    setFilter = (filter) => {
+        this.setState({
+            filter: filter
+        })
+    }
+
     render() {
         return(
             <div>
                 <div className="filters">
                 <ButtonDropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
                     <DropdownToggle caret>
-                        Button Dropdown
+                        {this.state.filter}
                     </DropdownToggle>
                     <DropdownMenu>
-                        <DropdownItem header>JavaScript</DropdownItem>
-                        <DropdownItem>Action</DropdownItem>
-                        <DropdownItem>Action</DropdownItem>
-                        <DropdownItem>Action</DropdownItem>
-                        <DropdownItem>Action</DropdownItem>
+                        <DropdownItem onClick={() => this.setFilter("Featured Projects")} id="Featured Projects" >Featured Projects</DropdownItem>
                         <DropdownItem divider />
-                        <DropdownItem header>Python</DropdownItem>
+                        <DropdownItem header>JavaScript</DropdownItem>
+                        <DropdownItem onClick={() => this.setFilter("React")} id="React">React</DropdownItem>
+                        <DropdownItem onClick={() => this.setFilter("jQuery")} id="jQuery">jQuery</DropdownItem>
+                        <DropdownItem onClick={() => this.setFilter("jQuery")} id="jQuery">Node</DropdownItem>
+                        <DropdownItem divider />
+                        <DropdownItem header>SQL</DropdownItem>
                         <DropdownItem>Action</DropdownItem>
-                        <DropdownItem>Action</DropdownItem>
+                        <DropdownItem header>Front-End Tech</DropdownItem>
                         <DropdownItem>Action</DropdownItem>
                         <DropdownItem>Action</DropdownItem>
                     </DropdownMenu>

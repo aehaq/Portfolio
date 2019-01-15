@@ -12,7 +12,7 @@ class Header extends Component {
         this.state = { collapse: false, status: 'Open'}
     }
 
-    // NOTE: IN Future replace this.state.status with an href for the up and down toggle arrows
+    // NOTE: In Future replace this.state.status with an href for the up and down toggle arrows
     onEntering() {
         this.setState({ status: 'Close' })
     }
@@ -30,12 +30,43 @@ class Header extends Component {
             <header className="header">
             <Container>
                 <Row>
-                    <Col>
+                    <Col sm="6">
                         <h1>Azzi Haq</h1>
                     </Col>
-                    <Col>
-                    <Nav className="float-right">
-                        <NavLink href="#">LinkedIn</NavLink><NavLink href="#">GitHub</NavLink> <NavLink href="#">Resume</NavLink> <NavLink href="#">Email</NavLink>
+                    <Col sm="6">
+                    <Nav className="float-md-right">
+                        <NavLink className="text-info" href="#">
+                            <Row>
+                            ICON HERE
+                            </Row>
+                            <Row>
+                            LinkedIn
+                            </Row>
+                        </NavLink>
+                        <NavLink className="text-info" href="#">
+                            <Row>
+                            ICON HERE
+                            </Row>
+                            <Row>
+                            GitHub
+                            </Row>
+                        </NavLink>
+                        <NavLink className="text-info" href="#">
+                            <Row>
+                            ICON HERE
+                            </Row>
+                            <Row>
+                            Resume
+                            </Row>
+                        </NavLink>
+                        <NavLink className="text-info" href="#">
+                            <Row>
+                            ICON HERE
+                            </Row>
+                            <Row>
+                            Contact
+                            </Row>
+                        </NavLink>
                     </Nav>
                         {/* <a>LinkedIn</a>
                         <a>GitHub</a>

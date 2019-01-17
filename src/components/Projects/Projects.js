@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Projects.css";
-import { ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap'
+import { ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem, Container, Row, Col } from 'reactstrap'
 
 class Projects extends Component {
 
@@ -29,12 +29,12 @@ class Projects extends Component {
     render() {
         return(
             <div>
-                <div className="filters">
+                <Row className="filters justify-content-center m-3">
                 <ButtonDropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
                     <DropdownToggle caret>
                         {this.state.filter}
                     </DropdownToggle>
-                    <DropdownMenu>
+                    <DropdownMenu right>
                         <DropdownItem onClick={() => this.setFilter("Featured Projects")} id="Featured Projects" >Featured Projects</DropdownItem>
                         <DropdownItem divider />
                         <DropdownItem header>JavaScript</DropdownItem>
@@ -50,7 +50,7 @@ class Projects extends Component {
                     </DropdownMenu>
                 </ButtonDropdown>
                     
-                </div>
+                </Row>
                 <div className="cards">
 
                 </div>

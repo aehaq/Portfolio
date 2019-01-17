@@ -6,20 +6,13 @@ import './App.css';
 
 class App extends Component {
 
-  state = {
-    filter: "Featured",
-    expanded: false
-  };
+  state = {};
 
   render() {
     return (
       <Wrapper>
-        <Header
-          expanded={this.state.expanded}
-        />
-        <Projects 
-          filter={this.state.filter}
-        />
+        <Header/>
+        <Projects/>
       </Wrapper>
     );
   }

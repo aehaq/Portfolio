@@ -30,12 +30,16 @@ class Header extends Component {
             <header className="header">
             <Container>
                 <Row>
-                    <Col sm="6">
-                        <h1>Azzi Haq</h1>
+                    <Col sm="4">
+                        <Row className="justify-content-center">
+                            <h1 className="text-secondary m-2">Azzi Haq</h1>
+
+                        </Row>
                     </Col>
+                    <Col></Col>
                     <Col sm="6">
-                    <Nav className="float-md-right">
-                        <NavLink className="text-info" href="#">
+                    <Nav className="float-md-right justify-content-center">
+                        <NavLink className="text-secondary m-1" href="#">
                             <Row className="justify-content-center">
                                 <a>
                                     <i className="fab fa-linkedin"></i>
@@ -45,7 +49,7 @@ class Header extends Component {
                             LinkedIn
                             </Row>
                         </NavLink>
-                        <NavLink className="text-info" href="#">
+                        <NavLink className="text-secondary m-1" href="#">
                             <Row className="justify-content-center">
                                 <a>
                                     <i className="fab fa-github"></i>
@@ -55,7 +59,7 @@ class Header extends Component {
                             GitHub
                             </Row>
                         </NavLink>
-                        <NavLink className="text-info" href="#">
+                        <NavLink className="text-secondary m-1" href="#">
                             <Row className="justify-content-center">
                                 <a>
                                     <i className="fas fa-file"></i>
@@ -65,7 +69,7 @@ class Header extends Component {
                             Resume
                             </Row>
                         </NavLink>
-                        <NavLink className="text-info" href="#">
+                        <NavLink className="text-secondary m-1" href="#">
                             <Row className="justify-content-center">
                                 <a>
                                     <i className="fas fa-envelope"></i>
@@ -76,10 +80,6 @@ class Header extends Component {
                             </Row>
                         </NavLink>
                     </Nav>
-                        {/* <a>LinkedIn</a>
-                        <a>GitHub</a>
-                        <a>Resume</a>
-                        <a>Contact</a> */}
                     </Col>
                 </Row>
                 <Collapse isOpen={this.state.collapse} onEntering={this.onEntering} onExiting={this.onExiting}>

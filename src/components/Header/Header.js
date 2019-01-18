@@ -28,17 +28,34 @@ class Header extends Component {
     render() {
         return(
             <header className="header">
-            <Container>
-                <Row>
-                    <Col sm="4">
+            <Container fluid>
+                <Row className="pt-3">
+                    <Col sm="5">
                         <Row className="justify-content-center">
-                            <h1 className="text-secondary m-2">Azzi Haq</h1>
-
+                            <Col sm="3" xs="2">
+                            </Col>
+                            <Col>
+                            <h1 className="text-secondary m-0">Azzi Haq</h1>
+                            </Col>   
+                        </Row>
+                        <Row>
+                            <Col sm="3" xs="2">
+                            </Col>
+                            <Col>
+                            <p className="text-secondary m-0"><i>/ɑziˈhʌk/</i></p>
+                            </Col>          
+                        </Row>
+                        <Row>
+                            <Col sm="3" xs="2">
+                            </Col>
+                            <Col>
+                            <p className="text-secondary"><i>Noun.</i> <strong>  Full Stack Developer </strong> </p>
+                            </Col>     
                         </Row>
                     </Col>
-                    <Col></Col>
-                    <Col sm="6">
-                    <Nav className="float-md-right justify-content-center">
+                    {/* <Col></Col> */}
+                    <Col sm="7">
+                    <Nav className="float-sm-right justify-content-center mr-md-5">
                         <NavLink className="text-secondary m-1" href="#">
                             <Row className="justify-content-center">
                                 <a>

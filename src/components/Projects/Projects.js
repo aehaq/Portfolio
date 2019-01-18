@@ -13,7 +13,8 @@ class Projects extends Component {
         this.state = {
           dropdownOpen: false,
           filter: "Featured Projects",
-          projects: projects
+          projects: projects,
+          displayedProjects: projects.filter(project => project.tags.includes("Featured Projects"))
         };
     }
 
@@ -25,7 +26,8 @@ class Projects extends Component {
 
     setFilter = (filter) => {
         this.setState({
-            filter: filter
+            filter: filter,
+            displayedProjects: projects.filter(project => project.tags.includes(filter))
         })
     }
 
@@ -54,7 +56,7 @@ class Projects extends Component {
                     </ButtonDropdown>
                 </Row>
                 <Row id="project-cards">
-                    {this.state.projects.map(project => (
+                    {this.state.displayedProjects.map(project => (
                         <ProjectCards 
                         title={project.title}
                         />

@@ -6,7 +6,7 @@
         "gitHub-link": "https://github.com/acekreations/Lets-Dev",
         "preview": "/assets/images/previes/letsdev.png",
         "description": "Productivity focused social accountability platform for developers",
-        "tags": ["Featured", "React.js", "SQL", "PostgreSQL", "Sequelize", "Node", "Express", "Heroku", "APIs", "JavaScript", "OAuth", "User Authentication"]
+        "tags": ["Featured Projects", "React.js", "SQL", "PostgreSQL", "Sequelize", "Node", "Express", "Heroku", "APIs", "JavaScript", "OAuth", "User Authentication"]
     },
     {
         "id": 1,
@@ -15,7 +15,7 @@
         "gitHub-link": "https://github.com/liangbryan2/timely",
         "preview": "/assets/images/previews/timely.png",
         "description": "",
-        "tags": ["Featured", "SQL", "mySQL", "Sequelize", "Node", "Express", "HandleBars", "APIs", "Chart.js", "Firebase", "Authentication", "jQuery", "JavaScript", "Heroku"]
+        "tags": ["Featured Projects", "SQL", "mySQL", "Sequelize", "Node", "Express", "HandleBars", "APIs", "Chart.js", "Firebase", "Authentication", "jQuery", "JavaScript", "Heroku"]
     },
     {
         "id": 2,
@@ -24,7 +24,7 @@
         "gitHub-link": "https://github.com/aehaq/JukeLab",
         "preview": "/assets/images/previews/JukeLab.png",
         "description": "Web Application ",
-        "tags": ["Featured", "APIs", "JavaScript", "jQuery", "Firebase", "UIKit", "OAuth", "User Authentication", "Mobile Responsive"]
+        "tags": ["Featured Projects", "APIs", "JavaScript", "jQuery", "Firebase", "UIKit", "OAuth", "User Authentication", "Mobile Responsive"]
     },
     {
         "id": 3,

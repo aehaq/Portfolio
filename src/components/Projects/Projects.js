@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import "./Projects.css";
+import ProjectCards from "./ProjectCards";
+import projects from "../../projects.json"; 
 import { ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem, Container, Row, Col } from 'reactstrap'
 
 class Projects extends Component {
@@ -10,7 +12,8 @@ class Projects extends Component {
         this.toggle = this.toggle.bind(this);
         this.state = {
           dropdownOpen: false,
-          filter: "Featured Projects"
+          filter: "Featured Projects",
+          projects: projects
         };
     }
 
@@ -51,7 +54,11 @@ class Projects extends Component {
                     </ButtonDropdown>
                 </Row>
                 <Row id="project-cards">
-
+                    {this.state.projects.map(project => (
+                        <ProjectCards 
+                        title={project.title}
+                        />
+                    ))}
                 </Row>
             </div>
         )

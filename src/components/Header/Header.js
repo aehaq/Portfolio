@@ -31,22 +31,22 @@ class Header extends Component {
             <Container fluid>
                 <Row className="pt-3">
                     <Col sm="5">
-                        <Row className="justify-content-center">
-                            <Col sm="3" xs="2">
+                        <Row>
+                            <Col md="3" xs="2">
                             </Col>
                             <Col>
                             <h1 className="text-secondary m-0">Azzi Haq</h1>
                             </Col>   
                         </Row>
                         <Row>
-                            <Col sm="3" xs="2">
+                            <Col md="3" xs="2">
                             </Col>
                             <Col>
                             <p className="text-secondary m-0"><i>/ɑziˈhʌk/</i></p>
                             </Col>          
                         </Row>
                         <Row>
-                            <Col sm="3" xs="2">
+                            <Col md="3" xs="2">
                             </Col>
                             <Col>
                             <p className="text-secondary"><i>Noun.</i> <strong>  Full Stack Developer </strong> </p>
@@ -54,8 +54,8 @@ class Header extends Component {
                         </Row>
                     </Col>
                     {/* <Col></Col> */}
-                    <Col sm="7">
-                    <Nav className="float-sm-right justify-content-center mr-md-5">
+                    <Col md="6" sm="7">
+                    <Nav className="float-sm-right justify-content-center">
                         <NavLink className="text-secondary m-1" href="#">
                             <Row className="justify-content-center">
                                 <a>
@@ -98,6 +98,7 @@ class Header extends Component {
                         </NavLink>
                     </Nav>
                     </Col>
+                    <Col />
                 </Row>
                 <Collapse isOpen={this.state.collapse} onEntering={this.onEntering} onExiting={this.onExiting}>
                     <div>

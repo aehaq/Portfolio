@@ -1,33 +1,48 @@
 [
     {
         "id": 0,
+        "title": "This Portfolio Website",
+        "site-link": "n/a",
+        "gitHub-link": "",
+        "preview": "/assets/images/previews/portfolio.png",
+        "role": "Technical Lead API and Database Developer",
+        "description": "The portfolio website you are currently viewing was built and designed by me from Scratch. The current build of this website is a Single-Page application built using React, with BootStrap styling elements provided through the ReactStrap Node Package.",
+        "tags": ["React", "JavaScript"],
+        "tags-full": []
+    },{
+        "id": 1,
         "title": "Lets_Dev",
         "site-link": "https://letsdev.herokuapp.com/",
         "gitHub-link": "https://github.com/acekreations/Lets-Dev",
-        "preview": "/assets/images/previes/letsdev.png",
-        "description": "Productivity focused social accountability platform for developers",
-        "tags": ["Featured Projects", "React.js", "SQL", "PostgreSQL", "Sequelize", "Node", "Express", "Heroku", "APIs", "JavaScript", "OAuth", "User Authentication"]
+        "preview": "/assets/images/previews/letsdev.png",
+        "role": "Technical Lead API and Database Developer",
+        "description": "Productivity focused Social Accountability Platform for developers, featuring a database for user metrics over time, and Social Network features. Authenticated by and information obtained through Octokit by Github.",
+        "tags": ["Featured Projects", "React", "SQL", "Node", "APIs", "JavaScript"],
+        "tags-full": ["Featured Projects", "React.js", "SQL", "PostgreSQL", "Sequelize", "Node", "Express", "Heroku", "APIs", "JavaScript", "OAuth", "User Authentication"]
     },
     {
-        "id": 1,
+        "id": 2,
         "title": "Timely",
         "site-link": "https://timelymanager.herokuapp.com/",
         "gitHub-link": "https://github.com/liangbryan2/timely",
         "preview": "/assets/images/previews/timely.png",
-        "description": "",
-        "tags": ["Featured Projects", "SQL", "mySQL", "Sequelize", "Node", "Express", "HandleBars", "APIs", "Chart.js", "Firebase", "Authentication", "jQuery", "JavaScript", "Heroku"]
+        "role": "Technical Lead API and Database Developer",
+        "description": "Time Management oriented Media Management Application providing users the ability to manage their media backlog. Users can access and prioritize selections from a vast library of Movies, TV Shows, Games and Books, for which we provide estimated completion times.",
+        "tags": ["Featured Projects", "SQL", "Node", "APIs", "jQuery", "JavaScript"],
+        "tags-full": ["Featured Projects", "SQL", "mySQL", "Sequelize", "Node", "Express", "HandleBars", "APIs", "Chart.js", "Firebase", "Authentication", "jQuery", "JavaScript", "Heroku"]
     },
     {
-        "id": 2,
+        "id": 3,
         "title": "JukeLab",
         "site-link": "https://aehaq.github.io/JukeLab/",
         "gitHub-link": "https://github.com/aehaq/JukeLab",
         "preview": "/assets/images/previews/JukeLab.png",
-        "description": "Web Application ",
-        "tags": ["Featured Projects", "APIs", "JavaScript", "jQuery", "Firebase", "UIKit", "OAuth", "User Authentication", "Mobile Responsive"]
+        "description": "Collaborative Playlist Web Application, allowing a user with Spotify Premium to host an event playlist. Guests of the event can access the playlist, and add songs to the queue without needing a Spotify account. Built and operated without requiring a back-end server.",
+        "tags": ["Featured Projects", "APIs", "JavaScript", "jQuery"],
+        "tags-full": ["Featured Projects", "APIs", "JavaScript", "jQuery", "Firebase", "UIKit", "OAuth", "User Authentication", "Mobile Responsive"]
     },
     {
-        "id": 3,
+        "id": 4,
         "title": "News Stand",
         "site-link": "",
         "gitHub-link": "",
@@ -36,7 +51,7 @@
         "tags": ["Node", "HandleBars", "MongoDB", "Mongoose", "APIs"]
     },
     {
-        "id": 4,
+        "id": 5,
         "title": "M.E.M. Test",
         "site-link": "",
         "gitHub-link": "",
@@ -45,7 +60,7 @@
         "tags": ["React.js","BootStrap"]
     },
     {
-        "id": 5,
+        "id": 6,
         "title": "placeholder",
         "site-link": "",
         "gitHub-link": "",
@@ -54,7 +69,7 @@
         "tags": []
     },
     {
-        "id": 6,
+        "id": 7,
         "title": "placeholder",
         "site-link": "",
         "gitHub-link": "",

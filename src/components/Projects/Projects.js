@@ -55,7 +55,7 @@ class Projects extends Component {
                         </DropdownMenu>
                     </ButtonDropdown>
                 </Row>
-                <Row id="project-cards">
+                <Row className="justify-content-center m-3" id="project-cards">
                     {this.state.displayedProjects.map(project => (
                         <ProjectCards 
                         title={project.title}

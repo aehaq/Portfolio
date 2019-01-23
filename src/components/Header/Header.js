@@ -9,12 +9,21 @@ class Header extends Component {
         this.onEntering = this.onEntering.bind(this);
         this.onExiting = this.onExiting.bind(this);
         this.toggle = this.toggle.bind(this);
-        this.state = { collapse: false, icon: 'fas fa-angle-down'}
+        this.state = { collapse: false, icon: 'fas fa-angle-down', 
+        // headerStyle: {}
+    }
     }
 
     // NOTE: In Future replace this.state.status with an href for the up and down toggle arrows
     onEntering() {
-        this.setState({ icon: 'fas fa-angle-up' })
+        this.setState({ 
+            icon: 'fas fa-angle-up',
+            // headerStyle: {
+            //     position: 'absolute',
+            //     top: '0',
+            //     bottom: '0'
+            // }
+        })
     }
 
     onExiting() {
@@ -28,7 +37,7 @@ class Header extends Component {
     render() {
         return(
             <header className="header">
-            <Container fluid>
+            <Container fluid >
                 <Row className="pt-3">
                     <Col sm="5">
                         <Row>

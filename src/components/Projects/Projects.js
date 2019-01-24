@@ -58,7 +58,13 @@ class Projects extends Component {
                 <Row className="justify-content-center m-3" id="project-cards">
                     {this.state.displayedProjects.map(project => (
                         <ProjectCards 
+                        id={project.id}
                         title={project.title}
+                        siteLink={project.siteLink}
+                        gitHubLink={project.gitHubLink}
+                        preview={project.preview}
+                        role={project.role}
+                        description={project.description}
                         />
                     ))}
                 </Row>

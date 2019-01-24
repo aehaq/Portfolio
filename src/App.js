@@ -10,10 +10,14 @@ class App extends Component {
 
   render() {
     return (
+      <div>
+
       <Wrapper>
         <Header/>
         <Projects/>
+        <p>copyright</p>
       </Wrapper>
+      </div>
     );
   }
 }

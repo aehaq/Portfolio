@@ -9,29 +9,26 @@ class Header extends Component {
         this.onEntering = this.onEntering.bind(this);
         this.onExiting = this.onExiting.bind(this);
         this.toggle = this.toggle.bind(this);
-        this.state = { collapse: false, icon: 'fas fa-angle-down', 
-        // headerStyle: {}
-    }
+        this.state = { collapse: false, icon: 'fas fa-angle-down'}
     }
 
     // NOTE: In Future replace this.state.status with an href for the up and down toggle arrows
     onEntering() {
         this.setState({ 
-            icon: 'fas fa-angle-up',
-            // headerStyle: {
-            //     position: 'absolute',
-            //     top: '0',
-            //     bottom: '0'
-            // }
+            icon: 'fas fa-angle-up'
         })
     }
 
     onExiting() {
-        this.setState({ icon: 'fas fa-angle-down' })
+        this.setState({ 
+            icon: 'fas fa-angle-down' 
+        })
     }
 
     toggle() {
-        this.setState({ collapse: !this.state.collapse})
+        this.setState({ 
+            collapse: !this.state.collapse
+        })
     }
 
     render() {

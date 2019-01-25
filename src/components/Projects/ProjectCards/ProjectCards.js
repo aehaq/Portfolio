@@ -45,7 +45,7 @@ class ProjectCards extends React.Component {
                         <hr className="my-3"/>
                         <CardSubtitle>
                         <div className="text-center">
-                            {this.deployed ? (
+                            {deployed ? (
                                     <Button color="default" className="m-2"> <a href={this.props.siteLink}> Deployed </a> </Button>
                                 ) : ('')
                             }

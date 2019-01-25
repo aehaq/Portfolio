@@ -35,7 +35,7 @@ class Header extends Component {
     render() {
         return(
             <header className="header">
-            <Container fluid >
+            {/* <Container fluid > */}
                 <Row className="pt-3">
                     <Col sm="5">
                         <Row>
@@ -118,7 +118,7 @@ class Header extends Component {
                     </Col>
                     <Col></Col>
                 </Row>
-            </Container>
+            {/* </Container> */}
             </header>
         )
     }

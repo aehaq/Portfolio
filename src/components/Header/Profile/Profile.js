@@ -16,7 +16,7 @@ class Profile extends Component {
                     <Row className="pt-3">
                         <Col lg="4">
                             <Container className="img-container">
-                                <img src={profilePic} className="prof-pic p-0" />
+                                <img src={profilePic} className="prof-pic" />
                             </Container>
                         </Col>
                         <Col lg="4">
@@ -26,7 +26,10 @@ class Profile extends Component {
                             </p>
                         </Col>
                         <Col lg="4">
-                            
+                            <h4>Technical Skills</h4>
+                            <p><strong>Languages:</strong></p>
+                            <p><strong>Frameworks:</strong></p>
+                            <p><strong>Technologies:</strong></p>
                         </Col>
                     </Row>
                 </Container>

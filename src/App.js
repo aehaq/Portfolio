@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Wrapper from "./components/Wrapper";
 import Header from "./components/Header";
 import Projects from "./components/Projects";
+import { Container } from 'reactstrap';
 import './App.css';
 
 class App extends Component {
@@ -11,11 +12,12 @@ class App extends Component {
   render() {
     return (
       <div>
-
       <Wrapper>
-        <Header/>
-        <Projects/>
-        <p>copyright</p>
+        <Container fluid className="p-0">
+          <Header/>
+          <Projects/>
+          <p>copyright</p>
+        </Container>
       </Wrapper>
       </div>
     );

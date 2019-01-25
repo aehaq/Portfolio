@@ -1,8 +1,17 @@
+p { 
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
 .prof-pic {
     width: 100%;
-    position: relative;
-    overflow: hidden;
     border-radius: 50%;
+    display: block;
     margin-left: auto;
     margin-right: auto;
+    vertical-align: middle;
+    max-width: 300px;
+}
+
+.img-container {
+    height: 100%;
 }

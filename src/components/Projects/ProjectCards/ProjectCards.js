@@ -53,7 +53,7 @@ class ProjectCards extends React.Component {
                         </div>
                         </CardSubtitle>
                         <hr className="my-2"/>
-                        <CardText className="text-justify m-3">
+                        <CardText className="text-justify m-3 project-info">
                             {this.props.description}
                         </CardText>
                 </CardImgOverlay>

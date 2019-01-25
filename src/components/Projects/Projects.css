@@ -1,0 +1,19 @@
+
+
+@media only screen and (max-width: 991px) {
+    .project-info {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 425px) {
+    .project-info {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 374px) {
+    .project-info {
+        display: none;
+    }
+}

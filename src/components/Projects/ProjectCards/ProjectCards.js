@@ -25,6 +25,9 @@ class ProjectCards extends React.Component {
     }
 
     render() {
+
+        const deployed = this.props.siteLink;
+
         return(
 
         <Col xl="4" md="6" className="p-2">
@@ -42,8 +45,11 @@ class ProjectCards extends React.Component {
                         <hr className="my-3"/>
                         <CardSubtitle>
                         <div className="text-center">
-                            <Button color="default" className="m-2"> Deployed </Button>
-                            <Button color="default" className="m-2"> GitHub </Button>
+                            {this.deployed ? (
+                                    <Button color="default" className="m-2"> <a href={this.props.siteLink}> Deployed </a> </Button>
+                                ) : ('')
+                            }
+                            <Button color="default" className="m-2"> <a href={this.props.gitHubLink}>  GitHub</a> </Button>
                         </div>
                         </CardSubtitle>
                         <hr className="my-2"/>

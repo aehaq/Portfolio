@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Collapse, Button, Container, Row, Col, Nav, NavItem, NavLink } from 'reactstrap';
 import "./Header.css";
+import Profile from "./Profile";
 
 class Header extends Component {
 
@@ -59,7 +60,6 @@ class Header extends Component {
                             </Col>     
                         </Row>
                     </Col>
-                    {/* <Col></Col> */}
                     <Col md="6" sm="7">
                     <Nav className="float-sm-right justify-content-center">
                         <NavLink className="text-secondary m-1" href="#">
@@ -107,11 +107,7 @@ class Header extends Component {
                     <Col />
                 </Row>
                 <Collapse isOpen={this.state.collapse} onEntering={this.onEntering} onExiting={this.onExiting}>
-                    <div>
-                        <h1>
-                            HELLO WORLD!
-                        </h1>
-                    </div>
+                    <Profile />
                 </Collapse>
                 <Row>
                     <Col></Col>

@@ -42,16 +42,13 @@ class Projects extends Component {
                         <DropdownMenu right>
                             <DropdownItem onClick={() => this.setFilter("Featured Projects")} id="Featured Projects" >Featured Projects</DropdownItem>
                             <DropdownItem divider />
-                            <DropdownItem header>JavaScript</DropdownItem>
+                            <DropdownItem header>Technologies</DropdownItem>
                             <DropdownItem onClick={() => this.setFilter("React")} id="React">React</DropdownItem>
                             <DropdownItem onClick={() => this.setFilter("jQuery")} id="jQuery">jQuery</DropdownItem>
+                            <DropdownItem onClick={() => this.setFilter("Handlebars")} id="Handlebars">Handlebars</DropdownItem>
                             <DropdownItem onClick={() => this.setFilter("Node")} id="Node">Node</DropdownItem>
-                            <DropdownItem divider />
-                            <DropdownItem header>SQL</DropdownItem>
-                            <DropdownItem>Action</DropdownItem>
-                            <DropdownItem header>Front-End Tech</DropdownItem>
-                            <DropdownItem>Action</DropdownItem>
-                            <DropdownItem>Action</DropdownItem>
+                            <DropdownItem onClick={() => this.setFilter("SQL")} id="SQL">SQL</DropdownItem>
+                            <DropdownItem onClick={() => this.setFilter("APIs")} id="APIs">APIs</DropdownItem>
                         </DropdownMenu>
                     </ButtonDropdown>
                 </Row>

@@ -17,7 +17,9 @@ class App extends Component {
           <Header/>
           <Projects/>
         </Container>
-          <p>copyright</p>
+        <footer className="text-center">
+          <small className="text-white">Copyright © { (new Date()).getFullYear() }</small>
+        </footer>
       </Wrapper>
       </div>
     );

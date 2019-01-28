@@ -34,16 +34,7 @@ p {
     font-size: 13px;
 }
 
-@media only screen and (max-width: 991px) {
-    .title-row {
-        height: auto;
-        padding-top: 10px;
-    }
 
-    .body-row {
-        padding-top: 5px;
-    }
-}
 
 @media only screen and (min-width: 1199px) {
     .title-row {
@@ -53,5 +44,32 @@ p {
 
     .prof-pic {
         max-width: 325px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .title-row {
+        height: auto;
+        padding-top: 10px;
+    }
+
+    .body-row {
+        padding-top: 5px;
+    }
+
+    #skills {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 14px;
+    }
+}
+
+
+
+@media only screen and (max-width:425px) {
+
+    #skills {
+        font-size: 13px;
     }
 }

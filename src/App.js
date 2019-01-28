@@ -16,8 +16,8 @@ class App extends Component {
         <Container fluid className="p-0">
           <Header/>
           <Projects/>
-          <p>copyright</p>
         </Container>
+          <p>copyright</p>
       </Wrapper>
       </div>
     );

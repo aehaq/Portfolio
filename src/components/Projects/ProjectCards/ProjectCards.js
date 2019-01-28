@@ -42,7 +42,6 @@ class ProjectCards extends React.Component {
                             {this.props.title}
                         </h2>
                         </CardTitle>
-                        <hr className="my-3"/>
                         <CardSubtitle>
                         <div className="text-center">
                             {deployed ? (

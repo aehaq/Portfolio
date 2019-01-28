@@ -62,7 +62,7 @@ class Header extends Component {
                     </Col>
                     <Col md="6" sm="7">
                     <Nav className="float-sm-right justify-content-center">
-                        <NavLink className="text-secondary m-1" href="#">
+                        <NavLink className="text-secondary m-1" href="https://www.linkedin.com/in/azfarhaq/">
                             <Row className="justify-content-center">
                                 <a>
                                     <i className="fab fa-linkedin"></i>
@@ -72,7 +72,7 @@ class Header extends Component {
                             LinkedIn
                             </Row>
                         </NavLink>
-                        <NavLink className="text-secondary m-1" href="#">
+                        <NavLink className="text-secondary m-1" href="https://github.com/aehaq">
                             <Row className="justify-content-center">
                                 <a>
                                     <i className="fab fa-github"></i>

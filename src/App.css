@@ -1,11 +1,12 @@
 html {
     overflow-x: hidden;
+    min-height: 100%;
+    position: relative;
 }
 
 body { 
     overflow-x: hidden;
+    background-image: linear-gradient(to bottom right, #141e30, #243b55);
+    height: 100%;
 }
 
-body {
-    background-image: linear-gradient(to bottom right, #141e30, #243b55)
-}

@@ -82,7 +82,7 @@ class Header extends Component {
                             GitHub
                             </Row>
                         </NavLink>
-                        <NavLink className="text-secondary m-1" href="#">
+                        <NavLink className="text-secondary m-1" href="assets/docs/resume.pdf">
                             <Row className="justify-content-center">
                                 <a>
                                     <i className="fas fa-file"></i>
@@ -92,7 +92,7 @@ class Header extends Component {
                             Resume
                             </Row>
                         </NavLink>
-                        <NavLink className="text-secondary m-1" href="#">
+                        <NavLink className="text-secondary m-1" href="mailto:azfarehaq@gmail.com">
                             <Row className="justify-content-center">
                                 <a>
                                     <i className="fas fa-envelope"></i>

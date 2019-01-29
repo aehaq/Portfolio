@@ -2,11 +2,11 @@
     {
         "id": 0,
         "title": "TheHaqer.com",
-        "gitHubLink": "",
+        "gitHubLink": "https://github.com/aehaq/Portfolio",
         "preview": "/assets/images/previews/portfolio.png",
         "role": "Technical Lead API and Database Developer",
         "description": "The portfolio website you are currently viewing was built and designed by me from Scratch. The current build of this website is a Single-Page application built using React, with BootStrap styling elements provided through the ReactStrap Node Package.",
-        "tags": ["React", "JavaScript"],
+        "tags": ["All", "React", "JavaScript"],
         "tags-full": []
     },{
         "id": 1,
@@ -17,7 +17,7 @@
         "role": "Technical Lead API and Database Developer",
         "description": "Productivity focused Social Accountability Platform for developers, featuring a database for user metrics over time, and Social Network features. Authenticated by and information obtained through Octokit by Github.",
         "tags": ["Featured Projects", "React", "SQL", "Node", "APIs", "JavaScript"],
-        "tags-full": ["Featured Projects", "React.js", "SQL", "PostgreSQL", "Sequelize", "Node", "Express", "Heroku", "APIs", "JavaScript", "OAuth", "User Authentication"]
+        "tags-full": ["All", "Featured Projects", "React.js", "SQL", "PostgreSQL", "Sequelize", "Node", "Express", "Heroku", "APIs", "JavaScript", "OAuth", "User Authentication"]
     },
     {
         "id": 2,
@@ -27,8 +27,8 @@
         "preview": "/assets/images/previews/timely.png",
         "role": "Technical Lead API and Database Developer",
         "description": "Time Management oriented Media Management Application providing users the ability to manage their media backlog. Users can access and prioritize selections from a vast library of Movies, TV Shows, Games and Books, for which we provide estimated completion times.",
-        "tags": ["Featured Projects", "SQL", "Node", "APIs", "jQuery", "JavaScript"],
-        "tags-full": ["Featured Projects", "SQL", "mySQL", "Sequelize", "Node", "Express", "HandleBars", "APIs", "Chart.js", "Firebase", "Authentication", "jQuery", "JavaScript", "Heroku"]
+        "tags": ["Featured Projects", "SQL", "Node", "APIs", "jQuery", "JavaScript", "Handlebars"],
+        "tags-full": ["All", "Featured Projects", "SQL", "mySQL", "Sequelize", "Node", "Express", "Handlebars", "APIs", "Chart.js", "Firebase", "Authentication", "jQuery", "JavaScript", "Heroku"]
     },
     {
         "id": 3,
@@ -38,34 +38,34 @@
         "preview": "/assets/images/previews/jukelab.png",
         "description": "Collaborative Playlist Web Application, allowing a user with Spotify Premium to host an event playlist. Guests of the event can access the playlist, and add songs to the queue without needing a Spotify account. Built and operated without requiring a back-end server.",
         "tags": ["Featured Projects", "APIs", "JavaScript", "jQuery"],
-        "tags-full": ["Featured Projects", "APIs", "JavaScript", "jQuery", "Firebase", "UIKit", "OAuth", "User Authentication", "Mobile Responsive"]
+        "tags-full": ["All", "Featured Projects", "APIs", "JavaScript", "jQuery", "Firebase", "UIKit", "OAuth", "User Authentication", "Mobile Responsive"]
     },
     {
         "id": 4,
         "title": "News Stand",
-        "siteLink": "",
-        "gitHubLink": "",
-        "preview": "/assets/images/previews/",
-        "description": "",
-        "tags": ["Node", "HandleBars", "MongoDB", "Mongoose", "APIs"]
+        "siteLink": "http://mongo-newstand.herokuapp.com/",
+        "gitHubLink": "https://github.com/aehaq/News-Stand",
+        "preview": "/assets/images/previews/newsstand.png",
+        "description": "In this News Stand Web Application, users may request a web-crawl of up-to-date articles from NPR's News Website. After crawling through the current articles, images, titles and links are saved to a Mongo Database, and user's may save comments on the articles.",
+        "tags": ["All", "Node", "Handlebars", "MongoDB", "APIs"]
     },
     {
         "id": 5,
         "title": "M.E.M. Test",
-        "siteLink": "",
-        "gitHubLink": "",
-        "preview": "/assets/images/previews/",
-        "description": "",
-        "tags": ["React.js","BootStrap"]
+        "siteLink": "https://aehaq.github.io/React-Memory-Test/",
+        "gitHubLink": "https://github.com/aehaq/React-Memory-Test",
+        "preview": "/assets/images/previews/memtest.png",
+        "description": "This React-based web-game challenges your ability to memorize your recent choices. This game utilizes dynamic component architecture and object-oriented programming to shuffle the displayed options in real time, and keep you on your toes.",
+        "tags": ["All", "React"]
     },
     {
         "id": 6,
-        "title": "placeholder",
-        "siteLink": "",
-        "gitHubLink": "",
-        "preview": "/assets/images/previews/",
-        "description": "",
-        "tags": []
+        "title": "Back Logger",
+        "siteLink": "https://back-logger.herokuapp.com/",
+        "gitHubLink": "https://github.com/aehaq/Back-Logger",
+        "preview": "/assets/images/previews/backlogger.png",
+        "description": "This full-stack web app, a pre-cursor to the Featured Project 'Timely', allows users to manage a database containing a media backlog. The application utilizes Object Relational Mapping (ORM) to manage its SQL Functions.",
+        "tags": ["All", "Node", "Handlebars", "SQL"]
     },
     {
         "id": 7,

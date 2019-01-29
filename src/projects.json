@@ -16,8 +16,8 @@
         "preview": "./assets/images/previews/letsdev.png",
         "role": "Technical Lead API and Database Developer",
         "description": "Productivity focused Social Accountability Platform for developers, featuring a database for user metrics over time, and Social Network features. Authenticated by and information obtained through Octokit by Github.",
-        "tags": ["Featured Projects", "React", "SQL", "Node", "APIs", "JavaScript"],
-        "tags-full": ["All", "Featured Projects", "React.js", "SQL", "PostgreSQL", "Sequelize", "Node", "Express", "Heroku", "APIs", "JavaScript", "OAuth", "User Authentication"]
+        "tags": ["Featured Projects",  "Full-Stack", "React", "SQL", "Node", "APIs", "JavaScript"],
+        "tags-full": ["All", "Featured Projects",  "Full-Stack", "React.js", "SQL", "PostgreSQL", "Sequelize", "Node", "Express", "Heroku", "APIs", "JavaScript", "OAuth", "User Authentication"]
     },
     {
         "id": 2,
@@ -27,7 +27,7 @@
         "preview": "./assets/images/previews/timely.png",
         "role": "Technical Lead API and Database Developer",
         "description": "Time Management oriented Media Management Application providing users the ability to manage their media backlog. Users can access and prioritize selections from a vast library of Movies, TV Shows, Games and Books, for which we provide estimated completion times.",
-        "tags": ["Featured Projects", "SQL", "Node", "APIs", "jQuery", "JavaScript", "Handlebars"],
+        "tags": ["Featured Projects",  "Full-Stack", "SQL", "Node", "APIs", "jQuery", "JavaScript", "Handlebars"],
         "tags-full": ["All", "Featured Projects", "SQL", "mySQL", "Sequelize", "Node", "Express", "Handlebars", "APIs", "Chart.js", "Firebase", "Authentication", "jQuery", "JavaScript", "Heroku"]
     },
     {
@@ -45,9 +45,9 @@
         "title": "News Stand",
         "siteLink": "http://mongo-newstand.herokuapp.com/",
         "gitHubLink": "https://github.com/aehaq/News-Stand",
-        "preview": "assets/images/previews/newsstand.png",
+        "preview": "./assets/images/previews/newsstand.png",
         "description": "In this News Stand Web Application, users may request a web-crawl of up-to-date articles from NPR's News Website. After crawling through the current articles, images, titles and links are saved to a Mongo Database, and user's may save comments on the articles.",
-        "tags": ["All", "Node", "Handlebars", "MongoDB", "APIs"]
+        "tags": ["All",  "Full-Stack", "Node", "Handlebars", "MongoDB", "APIs"]
     },
     {
         "id": 5,
@@ -65,15 +65,24 @@
         "gitHubLink": "https://github.com/aehaq/Back-Logger",
         "preview": "./assets/images/previews/backlogger.png",
         "description": "This full-stack web app, a pre-cursor to the Featured Project 'Timely', allows users to manage a database containing a media backlog. The application utilizes Object Relational Mapping (ORM) to manage its SQL Functions.",
-        "tags": ["All", "Node", "Handlebars", "SQL"]
+        "tags": ["All", "Full-Stack", "Node", "Handlebars", "SQL"]
     },
     {
         "id": 7,
-        "title": "placeholder",
+        "title": "Movie Pals",
+        "siteLink": "https://movie-pals.herokuapp.com/",
+        "gitHubLink": "https://github.com/aehaq/Movie-Pals",
+        "preview": "./assets/images/previews/moviepals",
+        "description": "Movie Pals is a demo Full-Stack web app that serves up a movie-preference questionnaire, and uses an algorithm to match them with past users whose tastes align well with their own.",
+        "tags": ["All", "Node", "Full-Stack", "jQuery"]
+    },
+    {
+        "id": 8,
+        "title": "Fantasy Shop",
         "siteLink": "",
-        "gitHubLink": "",
-        "preview": "./assets/images/previews/",
-        "description": "",
-        "tags": []
+        "gitHubLink": "https://github.com/aehaq/Fantasy-Shop",
+        "preview": "./assets/images/previews/fantasyshop",
+        "description": "This Fantasy Shop is a command-line based interactive shop like those you might find in an old-school text adventure. Take on the role of either customer or manager and use simple-to-execute commands to make changes to a SQL database directly from your terminal.",
+        "tags": ["All", "Node", "SQL"]
     }
 ]

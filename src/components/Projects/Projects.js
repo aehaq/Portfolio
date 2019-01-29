@@ -41,6 +41,8 @@ class Projects extends Component {
                         </DropdownToggle>
                         <DropdownMenu right>
                             <DropdownItem onClick={() => this.setFilter("Featured Projects")} id="Featured Projects" >Featured Projects</DropdownItem>
+                            <DropdownItem onClick={() => this.setFilter("Full-Stack")} id="Full-Stack" >Full-Stack</DropdownItem>
+                            <DropdownItem onClick={() => this.setFilter("All")} id="All" >All</DropdownItem>
                             <DropdownItem divider />
                             <DropdownItem header>Technologies</DropdownItem>
                             <DropdownItem onClick={() => this.setFilter("React")} id="React">React</DropdownItem>

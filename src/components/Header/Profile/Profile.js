@@ -8,7 +8,7 @@ class Profile extends Component {
     
     render() {
 
-        const profilePic = "/assets/images/profilePic.jpg"
+        const profilePic = "./assets/images/profilePic.jpg"
         
         return(
             <div>

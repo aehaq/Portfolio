@@ -13,7 +13,7 @@
         "title": "Lets_Dev",
         "siteLink": "https://letsdev.herokuapp.com/",
         "gitHubLink": "https://github.com/acekreations/Lets-Dev",
-        "preview": "../../assets/images/previews/letsdev.png",
+        "preview": "./assets/images/previews/letsdev.png",
         "role": "Technical Lead API and Database Developer",
         "description": "Productivity focused Social Accountability Platform for developers, featuring a database for user metrics over time, and Social Network features. Authenticated by and information obtained through Octokit by Github.",
         "tags": ["Featured Projects", "React", "SQL", "Node", "APIs", "JavaScript"],
@@ -24,7 +24,7 @@
         "title": "Timely",
         "siteLink": "https://timelymanager.herokuapp.com/",
         "gitHubLink": "https://github.com/liangbryan2/timely",
-        "preview": "../assets/images/previews/timely.png",
+        "preview": "./assets/images/previews/timely.png",
         "role": "Technical Lead API and Database Developer",
         "description": "Time Management oriented Media Management Application providing users the ability to manage their media backlog. Users can access and prioritize selections from a vast library of Movies, TV Shows, Games and Books, for which we provide estimated completion times.",
         "tags": ["Featured Projects", "SQL", "Node", "APIs", "jQuery", "JavaScript", "Handlebars"],
@@ -35,7 +35,7 @@
         "title": "JukeLab",
         "siteLink": "https://aehaq.github.io/JukeLab/",
         "gitHubLink": "https://github.com/aehaq/JukeLab",
-        "preview": "../../../assets/images/previews/jukelab.png",
+        "preview": "./assets/images/previews/jukelab.png",
         "description": "Collaborative Playlist Web Application, allowing a user with Spotify Premium to host an event playlist. Guests of the event can access the playlist, and add songs to the queue without needing a Spotify account. Built and operated without requiring a back-end server.",
         "tags": ["Featured Projects", "APIs", "JavaScript", "jQuery"],
         "tags-full": ["All", "Featured Projects", "APIs", "JavaScript", "jQuery", "Firebase", "UIKit", "OAuth", "User Authentication", "Mobile Responsive"]
@@ -54,7 +54,7 @@
         "title": "M.E.M. Test",
         "siteLink": "https://aehaq.github.io/React-Memory-Test/",
         "gitHubLink": "https://github.com/aehaq/React-Memory-Test",
-        "preview": "/assets/images/previews/memtest.png",
+        "preview": "./assets/images/previews/memtest.png",
         "description": "This React-based web-game challenges your ability to memorize your recent choices. This game utilizes dynamic component architecture and object-oriented programming to shuffle the displayed options in real time, and keep you on your toes.",
         "tags": ["All", "React"]
     },
@@ -63,7 +63,7 @@
         "title": "Back Logger",
         "siteLink": "https://back-logger.herokuapp.com/",
         "gitHubLink": "https://github.com/aehaq/Back-Logger",
-        "preview": "/assets/images/previews/backlogger.png",
+        "preview": "./assets/images/previews/backlogger.png",
         "description": "This full-stack web app, a pre-cursor to the Featured Project 'Timely', allows users to manage a database containing a media backlog. The application utilizes Object Relational Mapping (ORM) to manage its SQL Functions.",
         "tags": ["All", "Node", "Handlebars", "SQL"]
     },
@@ -72,7 +72,7 @@
         "title": "placeholder",
         "siteLink": "",
         "gitHubLink": "",
-        "preview": "/assets/images/previews/",
+        "preview": "./assets/images/previews/",
         "description": "",
         "tags": []
     }

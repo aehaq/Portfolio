@@ -16,7 +16,7 @@
         "preview": "./assets/images/previews/letsdev.png",
         "role": "Technical Lead API and Database Developer",
         "description": "Productivity focused Social Accountability Platform for developers, featuring a database for user metrics over time, and Social Network features. Authenticated by and information obtained through Octokit by Github.",
-        "tags": ["Featured Projects",  "Full-Stack", "React", "SQL", "Node", "APIs", "JavaScript"],
+        "tags": ["All", "Featured Projects",  "Full-Stack", "React", "SQL", "Node", "APIs", "JavaScript"],
         "tags-full": ["All", "Featured Projects",  "Full-Stack", "React.js", "SQL", "PostgreSQL", "Sequelize", "Node", "Express", "Heroku", "APIs", "JavaScript", "OAuth", "User Authentication"]
     },
     {
@@ -27,8 +27,8 @@
         "preview": "./assets/images/previews/timely.png",
         "role": "Technical Lead API and Database Developer",
         "description": "Time Management oriented Media Management Application providing users the ability to manage their media backlog. Users can access and prioritize selections from a vast library of Movies, TV Shows, Games and Books, for which we provide estimated completion times.",
-        "tags": ["Featured Projects",  "Full-Stack", "SQL", "Node", "APIs", "jQuery", "JavaScript", "Handlebars"],
-        "tags-full": ["All", "Featured Projects", "SQL", "mySQL", "Sequelize", "Node", "Express", "Handlebars", "APIs", "Chart.js", "Firebase", "Authentication", "jQuery", "JavaScript", "Heroku"]
+        "tags": ["All", "Featured Projects",  "Full-Stack", "SQL", "Node", "APIs", "jQuery", "JavaScript", "Handlebars"],
+        "tags-full": ["All", "Featured Projects", "Full-Stack", "SQL", "mySQL", "Sequelize", "Node", "Express", "Handlebars", "APIs", "Chart.js", "Firebase", "Authentication", "jQuery", "JavaScript", "Heroku"]
     },
     {
         "id": 3,
@@ -72,7 +72,7 @@
         "title": "Movie Pals",
         "siteLink": "https://movie-pals.herokuapp.com/",
         "gitHubLink": "https://github.com/aehaq/Movie-Pals",
-        "preview": "./assets/images/previews/moviepals",
+        "preview": "./assets/images/previews/moviepals.png",
         "description": "Movie Pals is a demo Full-Stack web app that serves up a movie-preference questionnaire, and uses an algorithm to match them with past users whose tastes align well with their own.",
         "tags": ["All", "Node", "Full-Stack", "jQuery"]
     },
@@ -81,7 +81,7 @@
         "title": "Fantasy Shop",
         "siteLink": "",
         "gitHubLink": "https://github.com/aehaq/Fantasy-Shop",
-        "preview": "./assets/images/previews/fantasyshop",
+        "preview": "./assets/images/previews/fantasyshop.png",
         "description": "This Fantasy Shop is a command-line based interactive shop like those you might find in an old-school text adventure. Take on the role of either customer or manager and use simple-to-execute commands to make changes to a SQL database directly from your terminal.",
         "tags": ["All", "Node", "SQL"]
     }

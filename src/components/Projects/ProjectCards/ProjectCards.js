@@ -38,7 +38,7 @@ class ProjectCards extends React.Component {
                 onMouseLeave={this.hideOverlay}
                 >
                         <CardTitle>
-                        <h2 className="text-center pt-3">
+                        <h2 className="text-center pt-3 project-title">
                             {this.props.title}
                         </h2>
                         </CardTitle>
@@ -51,7 +51,7 @@ class ProjectCards extends React.Component {
                             <Button color="default" className="m-2"> <a href={this.props.gitHubLink}>  GitHub</a> </Button>
                         </div>
                         </CardSubtitle>
-                        <hr className="my-2"/>
+                        <hr className="my-2 buffer"/>
                         <CardText className="text-justify m-3 project-info">
                             {this.props.description}
                         </CardText>

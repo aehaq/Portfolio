@@ -37,7 +37,7 @@
         "gitHubLink": "https://github.com/aehaq/JukeLab",
         "preview": "./assets/images/previews/jukelab.png",
         "description": "Collaborative Playlist Web Application, allowing a user with Spotify Premium to host an event playlist. Guests of the event can access the playlist, and add songs to the queue without needing a Spotify account. Built and operated without requiring a back-end server.",
-        "tags": ["Featured Projects", "APIs", "JavaScript", "jQuery"],
+        "tags": ["All", "Featured Projects", "APIs", "JavaScript", "jQuery"],
         "tags-full": ["All", "Featured Projects", "APIs", "JavaScript", "jQuery", "Firebase", "UIKit", "OAuth", "User Authentication", "Mobile Responsive"]
     },
     {

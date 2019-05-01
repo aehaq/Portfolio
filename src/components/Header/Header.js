@@ -37,9 +37,9 @@ class Header extends Component {
     render() {
         return(
             <header className="header">
-                {/* Top Row containing name and info */}
+                    {/* Top Row containing name and info */}
                 <Row className="pt-3">
-                    {/* Name and Title Div */}
+                        {/* Name and Title Div */}
                     <Col sm="5">
                         <Row>
                             <Col md="3" xs="2">
@@ -63,7 +63,7 @@ class Header extends Component {
                             </Col>     
                         </Row>
                     </Col>
-                    {/* Contact and Resume links */}
+                        {/* Contact and Resume links */}
                     <Col md="6" sm="7">
                     <Nav className="float-sm-right justify-content-center">
                             {/* LinkedIn */}
@@ -118,7 +118,7 @@ class Header extends Component {
                 <Collapse isOpen={this.state.collapse} onEntering={this.onEntering} onExiting={this.onExiting}>
                     <Profile />
                 </Collapse>
-                {/* About Me button toggle */}
+                    {/* About Me button toggle */}
                 <Row>
                     <Col></Col>
                     <Col className="text-center">

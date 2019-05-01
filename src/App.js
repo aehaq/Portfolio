@@ -18,7 +18,7 @@ class App extends Component {
           <Projects/>
         </Container>
         <footer className="footer text-center">
-          <small className="text-white">© Copyright { (new Date()).getFullYear() }</small>
+          <small className="text-muted m-0 small">© Copyright { (new Date()).getFullYear() }</small>
         </footer>
       </Wrapper>
       </div>

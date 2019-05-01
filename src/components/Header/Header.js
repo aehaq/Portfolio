@@ -37,8 +37,9 @@ class Header extends Component {
     render() {
         return(
             <header className="header">
-            {/* <Container fluid > */}
+                {/* Top Row containing name and info */}
                 <Row className="pt-3">
+                    {/* Name and Title Div */}
                     <Col sm="5">
                         <Row>
                             <Col md="3" xs="2">
@@ -62,8 +63,10 @@ class Header extends Component {
                             </Col>     
                         </Row>
                     </Col>
+                    {/* Contact and Resume links */}
                     <Col md="6" sm="7">
                     <Nav className="float-sm-right justify-content-center">
+                            {/* LinkedIn */}
                         <NavLink className="text-secondary m-1" href="https://www.linkedin.com/in/azfarhaq/">
                             <Row className="justify-content-center">
                                 <a>
@@ -71,9 +74,10 @@ class Header extends Component {
                                 </a>
                             </Row>
                             <Row>
-                            LinkedIn
+                                LinkedIn
                             </Row>
                         </NavLink>
+                            {/* GitHub */}
                         <NavLink className="text-secondary m-1" href="https://github.com/aehaq">
                             <Row className="justify-content-center">
                                 <a>
@@ -81,9 +85,10 @@ class Header extends Component {
                                 </a>
                             </Row>
                             <Row>
-                            GitHub
+                                GitHub
                             </Row>
                         </NavLink>
+                            {/* Resume */}
                         <NavLink className="text-secondary m-1" href="assets/docs/AzziHaqResume.pdf">
                             <Row className="justify-content-center">
                                 <a>
@@ -91,9 +96,10 @@ class Header extends Component {
                                 </a>
                             </Row>
                             <Row>
-                            Resume
+                                Resume
                             </Row>
                         </NavLink>
+                            {/* MailTo link */}
                         <NavLink className="text-secondary m-1" href="mailto:azfarehaq@gmail.com">
                             <Row className="justify-content-center">
                                 <a>
@@ -101,16 +107,18 @@ class Header extends Component {
                                 </a>
                             </Row>
                             <Row>
-                            Contact
+                                Contact
                             </Row>
                         </NavLink>
                     </Nav>
                     </Col>
                     <Col />
                 </Row>
+                    {/* Profile Section displays here when about me button is toggled */}
                 <Collapse isOpen={this.state.collapse} onEntering={this.onEntering} onExiting={this.onExiting}>
                     <Profile />
                 </Collapse>
+                {/* About Me button toggle */}
                 <Row>
                     <Col></Col>
                     <Col className="text-center">
@@ -121,7 +129,6 @@ class Header extends Component {
                     </Col>
                     <Col></Col>
                 </Row>
-            {/* </Container> */}
             </header>
         )
     }

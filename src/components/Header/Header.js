@@ -10,19 +10,21 @@ class Header extends Component {
         this.onEntering = this.onEntering.bind(this);
         this.onExiting = this.onExiting.bind(this);
         this.toggle = this.toggle.bind(this);
-        this.state = { collapse: false, icon: 'fas fa-angle-down'}
+        this.state = { collapse: false, icon: 'fas fa-angle-down', aboutText: "About Me"}
     }
 
     // NOTE: In Future replace this.state.status with an href for the up and down toggle arrows
     onEntering() {
         this.setState({ 
-            icon: 'fas fa-angle-up'
+            icon: 'fas fa-angle-up',
+            aboutText: ""
         })
     }
 
     onExiting() {
         this.setState({ 
-            icon: 'fas fa-angle-down' 
+            icon: 'fas fa-angle-down', 
+            aboutText: "About Me"
         })
     }
 
@@ -113,6 +115,7 @@ class Header extends Component {
                     <Col></Col>
                     <Col className="text-center">
                         <a onClick={this.toggle}>
+                            <p className="text-muted m-0 small"> {this.state.aboutText} </p>
                             <i className={this.state.icon}></i>
                         </a>
                     </Col>

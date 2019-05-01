@@ -34,6 +34,7 @@ class Projects extends Component {
     render() {
         return(
             <div className="project-section">
+                {/* Update to its own "filter" component */}
                 <Row className="justify-content-center p-3" id="dropdown-filter">
                     <ButtonDropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
                         <DropdownToggle caret>
@@ -55,6 +56,7 @@ class Projects extends Component {
                         </DropdownMenu>
                     </ButtonDropdown>
                 </Row>
+                {/* Update to its own "portfolio" component */}
                 <Row className="justify-content-center m-3" id="project-cards">
                     {this.state.displayedProjects.map(project => (
                         <ProjectCards 

@@ -21,6 +21,16 @@
     },
     {
         "id": 2,
+        "title": "JukeLab",
+        "siteLink": "https://aehaq.github.io/JukeLab/",
+        "gitHubLink": "https://github.com/aehaq/JukeLab",
+        "preview": "./assets/images/previews/jukelab.png",
+        "description": "Collaborative Playlist Web Application, allowing a user with Spotify Premium to host an event playlist. Guests of the event can access the playlist, and add songs to the queue without needing a Spotify account. Built and operated without requiring a back-end server.",
+        "tags": ["All", "Featured Projects", "APIs", "JavaScript", "jQuery"],
+        "tags-full": ["All", "Featured Projects", "APIs", "JavaScript", "jQuery", "Firebase", "UIKit", "OAuth", "User Authentication", "Mobile Responsive"]
+    },
+    {
+        "id": 3,
         "title": "Timely",
         "siteLink": "https://timelymanager.herokuapp.com/",
         "gitHubLink": "https://github.com/liangbryan2/timely",
@@ -29,16 +39,6 @@
         "description": "Time Management oriented Media Management Application providing users the ability to manage their media backlog. Users can access and prioritize selections from a vast library of Movies, TV Shows, Games and Books, for which we provide estimated completion times.",
         "tags": ["All", "Featured Projects",  "Full-Stack", "SQL", "Node", "APIs", "jQuery", "JavaScript", "Handlebars"],
         "tags-full": ["All", "Featured Projects", "Full-Stack", "SQL", "mySQL", "Sequelize", "Node", "Express", "Handlebars", "APIs", "Chart.js", "Firebase", "Authentication", "jQuery", "JavaScript", "Heroku"]
-    },
-    {
-        "id": 3,
-        "title": "JukeLab",
-        "siteLink": "https://aehaq.github.io/JukeLab/",
-        "gitHubLink": "https://github.com/aehaq/JukeLab",
-        "preview": "./assets/images/previews/jukelab.png",
-        "description": "Collaborative Playlist Web Application, allowing a user with Spotify Premium to host an event playlist. Guests of the event can access the playlist, and add songs to the queue without needing a Spotify account. Built and operated without requiring a back-end server.",
-        "tags": ["All", "Featured Projects", "APIs", "JavaScript", "jQuery"],
-        "tags-full": ["All", "Featured Projects", "APIs", "JavaScript", "jQuery", "Firebase", "UIKit", "OAuth", "User Authentication", "Mobile Responsive"]
     },
     {
         "id": 4,

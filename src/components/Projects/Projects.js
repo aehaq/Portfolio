@@ -34,8 +34,12 @@ class Projects extends Component {
     render() {
         return(
             <div className="project-section">
+                <Row className="justify-content-center m-0 pt-3">
+                    <p className="text-muted m-0 small"> Use this filter to see more projects. </p>
+                </Row>
                 {/* Update to its own "filter" component */}
-                <Row className="justify-content-center p-3" id="dropdown-filter">
+                <Row className="justify-content-center pb-3" id="dropdown-filter">
+                    <br />
                     <ButtonDropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
                         <DropdownToggle caret>
                             {this.state.filter}

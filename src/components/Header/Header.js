@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Collapse, Button, Container, Row, Col, Nav, NavItem, NavLink } from 'reactstrap';
+import { Collapse, Row, Col, Nav, NavLink } from 'reactstrap';
 import "./Header.css";
 import Profile from "./Profile";
 
@@ -67,7 +67,7 @@ class Header extends Component {
                     <Col md="6" sm="7">
                     <Nav className="float-sm-right justify-content-center">
                             {/* LinkedIn */}
-                        <NavLink className="text-secondary m-1" href="https://www.linkedin.com/in/azfarhaq/">
+                        <NavLink className="text-secondary m-1" href="https://www.linkedin.com/in/azzihaq/">
                             <Row className="justify-content-center">
                                 <a>
                                     <i className="fab fa-linkedin"></i>

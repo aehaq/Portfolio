@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./Projects.css";
 import ProjectCards from "./ProjectCards";
 import projects from "../../projects.json"; 
-import { ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem, Container, Row, Col } from 'reactstrap'
+import { ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem, Row } from 'reactstrap'
 
 class Projects extends Component {
 
@@ -55,7 +55,6 @@ class Projects extends Component {
                             <DropdownItem onClick={() => this.setFilter("Handlebars")} id="Handlebars">Handlebars</DropdownItem>
                             <DropdownItem onClick={() => this.setFilter("Node")} id="Node">Node</DropdownItem>
                             <DropdownItem onClick={() => this.setFilter("SQL")} id="SQL">SQL</DropdownItem>
-                            <DropdownItem onClick={() => this.setFilter("MongoDB")} id="MongoDB">MongoDB</DropdownItem>
                             <DropdownItem onClick={() => this.setFilter("APIs")} id="APIs">APIs</DropdownItem>
                         </DropdownMenu>
                     </ButtonDropdown>

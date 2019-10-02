@@ -5,7 +5,7 @@
         "gitHubLink": "https://github.com/aehaq/Portfolio",
         "preview": "./assets/images/previews/portfolio.png",
         "role": "Technical Lead API and Database Developer",
-        "description": "The portfolio website you are currently viewing was built and designed by me from Scratch. The current build of this website is a Single-Page application built using React, with BootStrap styling elements provided through the ReactStrap Node Package.",
+        "description": "The portfolio website you are currently viewing was built and designed by me from scratch. The current build of this website is a Single-Page application built using React, with BootStrap styling elements provided through the ReactStrap Node Package.",
         "tags": ["All", "React", "JavaScript"],
         "tags-full": []
     },{

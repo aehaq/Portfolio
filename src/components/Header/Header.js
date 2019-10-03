@@ -122,10 +122,10 @@ class Header extends Component {
                 <Row>
                     <Col></Col>
                     <Col className="text-center">
-                        <a onClick={this.toggle} href="true" style={{cursor: "pointer"}}>
+                        <span onClick={this.toggle} style={{cursor: "pointer"}}>
                             <p className="text-muted m-0 small"> {this.state.aboutText} </p>
                             <i className={this.state.icon}></i>
-                        </a>
+                        </span>
                     </Col>
                     <Col></Col>
                 </Row>

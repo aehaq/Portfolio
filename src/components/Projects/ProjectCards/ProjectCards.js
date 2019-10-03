@@ -31,20 +31,19 @@ class ProjectCards extends React.Component {
         return(
 
         <Col xl="4" md="6" className="p-2">
-            <Animated animationIn="flipInX" animationInDelay="150" isVisible={true}>
+            <Animated animationIn="fadeIn" animationInDelay="150" isVisible={true}>
                 <Card inverse>
                     <CardImg width="100%" src={this.props.preview} alt="Card image cap" onMouseEnter={this.showOverlay}/>
-                    {/* <Animated animationIn="fadeIn" animationInDelay="1600" animationOut="fadeOut" isVisible={true}> */}
-                        <CardImgOverlay className="bg-secondary overlay" 
-                        style={{display: this.state.hover }}
-                        onMouseLeave={this.hideOverlay}
-                        >
-                                <CardTitle>
+                    <CardImgOverlay className="bg-secondary overlay" 
+                    style={{display: this.state.hover }}
+                    onMouseLeave={this.hideOverlay}
+                    >
+                            <CardTitle>
                                 <h2 className="text-center pt-3 project-title">
                                     {this.props.title}
                                 </h2>
-                                </CardTitle>
-                                <CardSubtitle>
+                            </CardTitle>
+                            <CardSubtitle>
                                 <div className="text-center">
                                     {deployed ? (
                                             <Button color="default" className="m-2"> <a href={this.props.siteLink}> Deployed </a> </Button>
@@ -52,13 +51,12 @@ class ProjectCards extends React.Component {
                                     }
                                     <Button color="default" className="m-2"> <a href={this.props.gitHubLink}>  GitHub</a> </Button>
                                 </div>
-                                </CardSubtitle>
+                            </CardSubtitle>
                                 <hr className="my-2 buffer"/>
-                                <CardText className="text-justify m-3 project-info">
-                                    {this.props.description}
-                                </CardText>
-                        </CardImgOverlay>
-                    {/* </Animated> */}
+                            <CardText className="text-justify m-3 project-info">
+                                {this.props.description}
+                            </CardText>
+                    </CardImgOverlay>
                 </Card>
             </Animated>
         </Col>

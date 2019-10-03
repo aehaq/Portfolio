@@ -69,9 +69,9 @@ class Header extends Component {
                             {/* LinkedIn */}
                         <NavLink className="text-secondary m-1" href="https://www.linkedin.com/in/azzihaq/">
                             <Row className="justify-content-center">
-                                <a>
+                                <span>
                                     <i className="fab fa-linkedin"></i>
-                                </a>
+                                </span>
                             </Row>
                             <Row>
                                 LinkedIn
@@ -80,9 +80,9 @@ class Header extends Component {
                             {/* GitHub */}
                         <NavLink className="text-secondary m-1" href="https://github.com/aehaq">
                             <Row className="justify-content-center">
-                                <a>
+                                <span>
                                     <i className="fab fa-github"></i>
-                                </a>
+                                </span>
                             </Row>
                             <Row>
                                 GitHub
@@ -91,9 +91,9 @@ class Header extends Component {
                             {/* Resume */}
                         <NavLink className="text-secondary m-1" href="assets/docs/AzziHaqResume.pdf">
                             <Row className="justify-content-center">
-                                <a>
+                                <span>
                                     <i className="fas fa-file"></i>
-                                </a>
+                                </span>
                             </Row>
                             <Row>
                                 Resume
@@ -102,9 +102,9 @@ class Header extends Component {
                             {/* MailTo link */}
                         <NavLink className="text-secondary m-1" href="mailto:azfarehaq@gmail.com">
                             <Row className="justify-content-center">
-                                <a>
+                                <span>
                                     <i className="fas fa-envelope"></i>
-                                </a>
+                                </span>
                             </Row>
                             <Row>
                                 Contact
@@ -122,7 +122,7 @@ class Header extends Component {
                 <Row>
                     <Col></Col>
                     <Col className="text-center">
-                        <a onClick={this.toggle} style={{cursor: "pointer"}}>
+                        <a onClick={this.toggle} href="true" style={{cursor: "pointer"}}>
                             <p className="text-muted m-0 small"> {this.state.aboutText} </p>
                             <i className={this.state.icon}></i>
                         </a>

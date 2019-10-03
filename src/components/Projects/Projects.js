@@ -64,6 +64,7 @@ class Projects extends Component {
                     {this.state.displayedProjects.map(project => (
                         <ProjectCards 
                         id={project.id}
+                        key={project.id}
                         title={project.title}
                         siteLink={project.siteLink}
                         gitHubLink={project.gitHubLink}

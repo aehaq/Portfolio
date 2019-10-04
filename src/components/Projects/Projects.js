@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./Projects.css";
 import ProjectCards from "./ProjectCards";
 import projects from "../../projects.json"; 
-import { ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem, Row } from 'reactstrap'
+import { ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem, Row } from 'reactstrap';
 
 class Projects extends Component {
 

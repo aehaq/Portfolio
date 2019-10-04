@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Collapse, Row, Col, Nav, NavLink } from 'reactstrap';
 import "./Header.css";
 import Profile from "./Profile";
+import { Animated } from "react-animated-css";
 
 class Header extends Component {
 
@@ -41,76 +42,90 @@ class Header extends Component {
                 <Row className="pt-3">
                         {/* Name and Title Div */}
                     <Col sm="5">
-                        <Row>
-                            <Col md="3" xs="2">
-                            </Col>
-                            <Col>
-                            <h1 className="text-secondary m-0">Azzi Haq</h1>
-                            </Col>   
-                        </Row>
-                        <Row>
-                            <Col md="3" xs="2">
-                            </Col>
-                            <Col>
-                            <p className="text-secondary m-0"><i>/ɑziˈhʌk/</i></p>
-                            </Col>          
-                        </Row>
-                        <Row>
-                            <Col md="3" xs="2">
-                            </Col>
-                            <Col>
-                            <p className="text-secondary"><i>Noun.</i> <strong>  Full Stack Developer </strong> </p>
-                            </Col>     
-                        </Row>
+                        <Animated animationIn="fadeInDown" animationInDelay="500" isVisible={true}>
+                            <Row>
+                                <Col md="3" xs="2">
+                                </Col>
+                                <Col>
+                                <h1 className="text-secondary m-0">Azzi Haq</h1>
+                                </Col>   
+                            </Row>
+                        </Animated>
+                        <Animated animationIn="fadeInDown" animationInDelay="800" isVisible={true}>
+                            <Row>
+                                <Col md="3" xs="2">
+                                </Col>
+                                <Col>
+                                <p className="text-secondary m-0"><i>/ɑziˈhʌk/</i></p>
+                                </Col>          
+                            </Row>
+                        </Animated>
+                        <Animated animationIn="fadeInDown" animationInDelay="1100" isVisible={true}>
+                            <Row>
+                                <Col md="3" xs="2">
+                                </Col>
+                                <Col>
+                                <p className="text-secondary"><i>Noun.</i> <strong>  Full Stack Developer </strong> </p>
+                                </Col>     
+                            </Row>
+                        </Animated>
                     </Col>
                         {/* Contact and Resume links */}
                     <Col md="6" sm="7">
-                    <Nav className="float-sm-right justify-content-center">
-                            {/* LinkedIn */}
-                        <NavLink className="text-secondary m-1" href="https://www.linkedin.com/in/azzihaq/">
-                            <Row className="justify-content-center">
-                                <span>
-                                    <i className="fab fa-linkedin"></i>
-                                </span>
-                            </Row>
-                            <Row>
-                                LinkedIn
-                            </Row>
-                        </NavLink>
-                            {/* GitHub */}
-                        <NavLink className="text-secondary m-1" href="https://github.com/aehaq">
-                            <Row className="justify-content-center">
-                                <span>
-                                    <i className="fab fa-github"></i>
-                                </span>
-                            </Row>
-                            <Row>
-                                GitHub
-                            </Row>
-                        </NavLink>
-                            {/* Resume */}
-                        <NavLink className="text-secondary m-1" href="assets/docs/AzziHaqResume.pdf">
-                            <Row className="justify-content-center">
-                                <span>
-                                    <i className="fas fa-file"></i>
-                                </span>
-                            </Row>
-                            <Row>
-                                Resume
-                            </Row>
-                        </NavLink>
-                            {/* MailTo link */}
-                        <NavLink className="text-secondary m-1" href="mailto:azfarehaq@gmail.com">
-                            <Row className="justify-content-center">
-                                <span>
-                                    <i className="fas fa-envelope"></i>
-                                </span>
-                            </Row>
-                            <Row>
-                                Contact
-                            </Row>
-                        </NavLink>
-                    </Nav>
+                        <Nav className="float-sm-right justify-content-center">
+                            <Animated animationIn="fadeInDown" animationInDelay="1200" isVisible={true}>
+                                {/* LinkedIn */}
+                                <NavLink className="text-secondary m-1" href="https://www.linkedin.com/in/azzihaq/">
+                                    <Row className="justify-content-center">
+                                        <span>
+                                            <i className="fab fa-linkedin"></i>
+                                        </span>
+                                    </Row>
+                                    <Row>
+                                        LinkedIn
+                                    </Row>
+                                </NavLink>
+                            </Animated>
+                            <Animated animationIn="fadeInDown" animationInDelay="1400" isVisible={true}>
+                                {/* GitHub */}
+                                <NavLink className="text-secondary m-1" href="https://github.com/aehaq">
+                                    <Row className="justify-content-center">
+                                        <span>
+                                            <i className="fab fa-github"></i>
+                                        </span>
+                                    </Row>
+                                    <Row>
+                                        GitHub
+                                    </Row>
+                                </NavLink>
+                            </Animated>
+                            <Animated animationIn="fadeInDown" animationInDelay="1600" isVisible={true}>
+                                {/* Resume */}
+                                <NavLink className="text-secondary m-1" href="assets/docs/AzziHaqResume.pdf">
+                                    <Row className="justify-content-center">
+                                        <span>
+                                            <i className="fas fa-file"></i>
+                                        </span>
+                                    </Row>
+                                    <Row>
+                                        Resume
+                                    </Row>
+                                </NavLink>
+                            </Animated>
+                            <Animated animationIn="fadeInDown" animationInDelay="1800" isVisible={true}>
+                                {/* MailTo link */}
+                                <NavLink className="text-secondary m-1" href="mailto:azfarehaq@gmail.com">
+                                    <Row className="justify-content-center">
+                                        <span>
+                                            <i className="fas fa-envelope"></i>
+                                        </span>
+                                    </Row>
+                                    <Row>
+                                        Contact
+                                    </Row>
+                                </NavLink>
+                            </Animated>
+                        </Nav>
                     </Col>
                     <Col />
                 </Row>
@@ -122,10 +137,12 @@ class Header extends Component {
                 <Row>
                     <Col></Col>
                     <Col className="text-center">
-                        <span onClick={this.toggle} style={{cursor: "pointer"}}>
-                            <p className="text-muted m-0 small"> {this.state.aboutText} </p>
-                            <i className={this.state.icon}></i>
-                        </span>
+                        <Animated animationIn="tada" animationInDelay="2500" isVisible={true}>
+                            <span onClick={this.toggle} style={{cursor: "pointer"}}>
+                                <p className="text-muted m-0 small"> {this.state.aboutText} </p>
+                                <i className={this.state.icon}></i>
+                            </span>
+                        </Animated>
                     </Col>
                     <Col></Col>
                 </Row>

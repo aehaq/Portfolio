@@ -54,8 +54,9 @@ class Projects extends Component {
                             <DropdownItem onClick={() => this.setFilter("jQuery")} id="jQuery">jQuery</DropdownItem>
                             <DropdownItem onClick={() => this.setFilter("Handlebars")} id="Handlebars">Handlebars</DropdownItem>
                             <DropdownItem onClick={() => this.setFilter("Node")} id="Node">Node</DropdownItem>
-                            <DropdownItem onClick={() => this.setFilter("SQL")} id="SQL">SQL</DropdownItem>
                             <DropdownItem onClick={() => this.setFilter("APIs")} id="APIs">APIs</DropdownItem>
+                            <DropdownItem onClick={() => this.setFilter("SQL")} id="SQL">SQL</DropdownItem>
+                            <DropdownItem onClick={() => this.setFilter("MongoDB")} id="MongoDB">MongoDB</DropdownItem>
                         </DropdownMenu>
                     </ButtonDropdown>
                 </Row>

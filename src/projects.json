@@ -47,7 +47,7 @@
         "gitHubLink": "https://github.com/aehaq/News-Stand",
         "preview": "./assets/images/previews/newsstand.png",
         "description": "In this News Stand Web Application, users may request a web-crawl of up-to-date articles from NPR's News Website. After crawling through the current articles, images, titles and links are saved to a Mongo Database, and user's may save comments on the articles.",
-        "tags": []
+        "tags": ["All", "Full-Stack", "Node", "Express", "Handlebars", "MongoDB"]
     },
     {
         "id": 5,
@@ -65,7 +65,7 @@
         "gitHubLink": "https://github.com/aehaq/Back-Logger",
         "preview": "./assets/images/previews/backlogger.png",
         "description": "This full-stack web app, a pre-cursor to the Featured Project 'Timely', allows users to manage a database containing a media backlog. The application utilizes Object Relational Mapping (ORM) to manage its SQL Functions.",
-        "tags": []
+        "tags": ["All", "Full-Stack", "Node", "Express", "Handlebars", "SQL"]
     },
     {
         "id": 7,
